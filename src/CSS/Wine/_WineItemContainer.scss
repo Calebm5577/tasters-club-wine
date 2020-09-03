@@ -1,0 +1,17 @@
+.WineItemContainer {
+
+    &-row{
+        display: flex;
+    }
+
+    &-column {
+        overflow-x: scroll;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &-extra {
+        display: none;
+    }
+
+}

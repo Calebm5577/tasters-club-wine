@@ -1,0 +1,28 @@
+@media screen and (min-width: 750px) {
+
+    .Header {
+        
+        &-HamburgerTitle {
+
+            &__search {
+                display: block;
+            }
+        }
+
+
+        &-Icons {
+
+            &__search {
+                display: none;
+            }
+
+            &-span1 {
+                display: flex;
+            }
+
+            &-span2 {
+                display: flex;
+            }
+        }
+    }
+}

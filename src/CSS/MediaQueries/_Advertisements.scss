@@ -1,0 +1,27 @@
+@media screen and (min-width: 450px) {
+
+    .Advertisements {
+        flex-direction: row;
+
+        &-Div1 {
+            height: 300px;
+            width: 70%;
+            max-width: 608px;
+            height: 200px;
+        }
+
+        &-Div2 {
+            height: 300px;
+            width: 70%;
+            max-width: 608px;
+            height: 200px;
+
+            &-span2 {
+
+                &-title {
+                    font-size: 32px;
+                }
+            }
+        }
+    }
+}

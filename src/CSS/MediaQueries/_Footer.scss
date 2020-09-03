@@ -1,0 +1,10 @@
+@media screen and (min-width: 800px) {
+
+    .Footer {
+        margin-top: 75px;
+
+        &-payments {
+            display: none;
+        }
+    }
+}

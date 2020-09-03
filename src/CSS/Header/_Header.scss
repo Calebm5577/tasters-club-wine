@@ -1,0 +1,137 @@
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    border-bottom: 1px solid rgb(234, 224, 218);
+    flex-wrap: wrap;
+
+    &-HamburgerTitle {
+        display: flex;
+        align-items: center;
+        height: 64px;
+
+        &__hamburger {
+            font-size: 20px;
+            margin-left: 10px;
+        }
+
+        &__logo {
+            font-size: 13px;
+            max-height: 64px;
+            width: 100px;
+            margin-left: 15px;
+        }
+
+
+        &__search {
+            display: none;
+            font-size: 16px;
+            font-weight: 300;
+            height: 40px;
+            width: 200px;
+            padding: 4px;
+            padding-left: 45px;
+            border-radius: 32px;
+            border-width: 1px;
+            background-image: url("https://www.vivino.com/packs/8c4e86902f36c8a519856195b1e4e8ad.svg");
+            background-position-x: 16px;
+            background-position-y: 50%;
+            background-repeat: no-repeat;
+            border-width: 1px;
+            border-color: rgb(222, 222, 222);
+            margin-left: 15px;
+            color: rgb(51, 51, 51);
+        }
+    }
+
+
+
+    &-Icons {      
+        display: flex;
+        align-items: center;
+
+        &__person {
+            margin-right: 15px;
+        }
+
+        &__search {
+            margin-right: 15px;
+        }
+
+        &__cart {
+            margin-right: 20px;
+        }
+
+
+        &-span1 {
+            display: flex;
+            align-items: center;
+            display: none;
+            margin-right: 15px;
+            
+
+            &-text {
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+
+                &-p {
+                    font-size: 12px;
+                    font-weight: 400;
+                    color: rgb(168, 165, 163);
+                    margin-bottom: 0;
+                    padding-bottom: 0;
+
+                }
+
+                &-h3 {
+                    margin-top: 0;
+                    padding-top: 0;
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+            }
+
+            &-img {
+                height: 15px;
+                transform: rotate(90deg);
+            }
+        }
+
+        &-span2 {
+            display: flex;
+            align-items: center;
+            display: none;
+            margin-right: 15px;
+
+            &-text {
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+
+                &-p {
+                    font-size: 12px;
+                    font-weight: 400;
+                    color: rgb(168, 165, 163);
+                    margin-bottom: 0;
+                    padding-bottom: 0;
+
+                }
+
+                &-h3 {
+                    margin-top: 0;
+                    padding-top: 0;
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+            }
+
+            &-img {
+                height: 15px;
+                transform: rotate(90deg);
+            }
+        }
+
+    }
+}

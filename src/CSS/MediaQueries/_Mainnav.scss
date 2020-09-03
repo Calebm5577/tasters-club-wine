@@ -1,0 +1,23 @@
+@media screen and (min-width: 750px) {
+
+    .Mainnav {
+
+        &-pairings {
+            display: flex;
+        }
+
+        &-grapes {
+            display: flex;
+        }
+
+        &-regions {
+            display: flex;
+        }
+
+        &-img {
+            height: 300px;
+            max-width: 2700px;
+           
+        }
+    }
+}
