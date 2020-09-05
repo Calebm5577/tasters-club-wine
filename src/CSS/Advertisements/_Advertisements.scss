@@ -1,16 +1,22 @@
+
+//Two advertisements, blue and red
+
 .Advertisements {
     display: flex;
     flex-direction: column;
     justify-content: center;
     
+    //Blue Advertisment
     &-Div1 {
         margin: 20px;
         background-color: #DBF3FD;
         display: flex;
         height: 200px;
-        //flex-direction: column;
 
+
+        //Blue Advertisment text
         &-span1{
+            width: 90%;
 
             &-paragraph {
                 color: rgb(0, 122, 196);
@@ -30,7 +36,12 @@
 
         }
 
+        //Blue Advertisment logo and button
         &-span2 {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: flex-end;
 
             &-button {
                 font-size: 15px;
@@ -58,6 +69,8 @@
 
     }
 
+    //Red Advertisment
+
     &-Div2 {
         display: flex;
         flex-direction: column;
@@ -66,6 +79,7 @@
         margin-right: 20px;
         margin-top: 20px;
 
+        //Red Advertisment logo and top text
         &-span1 {
             display: flex;
             align-items: center;
@@ -85,6 +99,7 @@
 
         }
 
+        //Red Advertisement bottom text and button
         &-span2 {
             display: flex;
             flex-direction: column;
@@ -112,7 +127,7 @@
                 //max-width: 100%;
                 align-self: flex-end;
                 margin-right: 20px;
-                margin-bottom: 15px;           
+                margin-bottom: 15px;         
              }
         }
 

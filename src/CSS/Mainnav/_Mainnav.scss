@@ -1,12 +1,18 @@
+
+//Mainnav-wrapper includes wines/offers and the Discover tuscany image
+
 .Mainnav-wrapper {
     display: flex;
     flex-direction: column;
 }
 
 
+//Mainnav is right under header, everything parrallel with Wines/Offers on mobile, and Wines through Regions on bigger screens
+
 .Mainnav {
     display: flex;
     justify-content: space-around;
+    
 
     &-wine {
         display: flex;
@@ -63,7 +69,7 @@
     }
 
     
-
+    //Discover Tuscany Image
     &-img {
         width: 100%;
         max-width: 512px;

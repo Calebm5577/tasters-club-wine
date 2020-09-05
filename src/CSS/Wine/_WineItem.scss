@@ -1,3 +1,6 @@
+
+//flex-span is the minus, plus, and number after 750px screen sizes
+
 .flex-span {
     display: flex;
     align-items: flex-start;
@@ -44,6 +47,8 @@
     }
 }
 
+//WineItem is the Wine bottles, information, and cart button
+
 .WineItem {
     display: flex;
     flex-direction: column;
@@ -51,6 +56,8 @@
     width: 35%;
     margin-left: auto;
     margin-right: auto;
+
+    //Wine bottle, rating/stars, number, and cart button
 
     &-div1 {
         display: flex;
@@ -115,6 +122,8 @@
             }
         }
     }
+
+    //Wine location, wine name, flag, country, and price
 
     &-div2 {
         display: flex;

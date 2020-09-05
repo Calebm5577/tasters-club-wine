@@ -1,3 +1,6 @@
+
+//Image and text of Greg Bybee the Wine Editor at Vivino
+
 .WineEditor {
     display: flex;
     justify-content: center;
@@ -7,9 +10,11 @@
     padding-top: 0;
     margin-top: 0;
 
+    //Div around portrait
     &-div1 {
         display: flex;
 
+        //His image size/radius
         &-img {
             height: 90px;
             border-radius: 50%;
@@ -17,6 +22,7 @@
         }
     }
 
+    //Text including the bold and paragraph next to portrait
     &-div2 {
         margin-left: 20px;
 

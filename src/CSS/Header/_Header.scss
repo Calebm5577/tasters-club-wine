@@ -1,3 +1,6 @@
+
+//Header is the very top, everything parrallel to the VIVINO symbol
+
 .Header {
     display: flex;
     align-items: center;
@@ -6,6 +9,8 @@
     border-bottom: 1px solid rgb(234, 224, 218);
     flex-wrap: wrap;
 
+
+    //Hamburger menu, VIVINO logo, and Search Bar
     &-HamburgerTitle {
         display: flex;
         align-items: center;
@@ -46,7 +51,7 @@
     }
 
 
-
+    //3 logos to the right on mobile and 'ship to' plus 'language' on bigger screens
     &-Icons {      
         display: flex;
         align-items: center;
@@ -64,6 +69,7 @@
         }
 
 
+        //Ship too
         &-span1 {
             display: flex;
             align-items: center;
@@ -99,6 +105,8 @@
             }
         }
 
+
+        //Language
         &-span2 {
             display: flex;
             align-items: center;

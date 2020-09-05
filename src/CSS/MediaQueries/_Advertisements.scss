@@ -1,4 +1,4 @@
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 644px) {
 
     .Advertisements {
         flex-direction: row;
@@ -21,7 +21,49 @@
                 &-title {
                     font-size: 32px;
                 }
+
+
             }
         }
+    }
+}
+
+//Fix button position in red advertisment
+
+@media screen and (min-width: 1105px) {
+    .Advertisements {
+
+
+        &-Div2 {
+
+
+            &-span2 {
+
+                &-button {
+                    margin-top: 44px;
+                }
+
+
+            }
+        }
+    }
+}
+
+//Fix button margin-bottom in blue advertisment
+
+
+@media screen and (min-width: 647px) {
+    .Advertisements {
+
+        &-Div1 {
+
+            &-span2 {
+
+                &-button{
+                    margin-bottom: 10px;
+                }
+            }
+        }
+
     }
 }
