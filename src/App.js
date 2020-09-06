@@ -8,6 +8,8 @@ import WineItemContainer from './components/WineItemContainer';
 import Button from './components/Button';
 import Footer from './components/Footer';
 import Footer2 from './components/Footer2';
+import Footer3 from './components/Footer2-1000px';
+
 
 function App() {
   return (
@@ -18,7 +20,12 @@ function App() {
        <WineEditor />
        <WineItemContainer />
        <Footer />
-       <Footer2 />
+       <span className="Under-1000px">
+        <Footer2 />  
+       </span>
+       <span className="Over-1000px">
+        <Footer3 />
+       </span>
     </div>
   );
 }

@@ -11,6 +11,9 @@
         overflow-x: scroll;
         display: flex;
         flex-direction: column;
+        max-width: 1275px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     &-extra {

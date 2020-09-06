@@ -4,8 +4,9 @@
         
         &-HamburgerTitle {
 
+
             &__search {
-                display: block;
+                display: flex;
             }
         }
 
@@ -23,6 +24,22 @@
             &-span2 {
                 display: flex;
             }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 750px) {
+    .Header {
+        
+        &-HamburgerTitle {
+    
+    
+            &__hamburger {
+                display: flex;
+            }
+            
         }
     }
 }

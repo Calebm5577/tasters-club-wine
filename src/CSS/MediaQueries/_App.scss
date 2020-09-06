@@ -1,0 +1,26 @@
+
+@media screen and (min-width: 1000px) {
+
+    .Under-1000px {
+        display: none;
+    }
+
+    .Over-1000px {
+        display: block;
+    }
+
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    .Under-1000px {
+        display: block;
+    }
+
+    .Over-1000px {
+        display: none;
+    }
+
+}
+

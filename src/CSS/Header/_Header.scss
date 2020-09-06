@@ -6,8 +6,10 @@
     align-items: center;
     justify-content: space-between;
     height: 64px;
-    border-bottom: 1px solid rgb(234, 224, 218);
     flex-wrap: wrap;
+    max-width: 1275px;
+    margin-left: auto;
+    margin-right: auto;
 
 
     //Hamburger menu, VIVINO logo, and Search Bar
@@ -19,6 +21,7 @@
         &__hamburger {
             font-size: 20px;
             margin-left: 10px;
+            display: none;
         }
 
         &__logo {
@@ -38,15 +41,12 @@
             padding: 4px;
             padding-left: 45px;
             border-radius: 32px;
-            border-width: 1px;
             background-image: url("https://www.vivino.com/packs/8c4e86902f36c8a519856195b1e4e8ad.svg");
             background-position-x: 16px;
             background-position-y: 50%;
             background-repeat: no-repeat;
-            border-width: 1px;
-            border-color: rgb(222, 222, 222);
+            border: 1px solid rgb(236, 236, 236);
             margin-left: 15px;
-            color: rgb(51, 51, 51);
         }
     }
 

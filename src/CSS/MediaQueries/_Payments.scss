@@ -1,0 +1,42 @@
+@media screen and (min-width: 1000px) {
+
+    .Payments {
+        margin-top: 25px;
+        display: flex;
+    
+        &-div1{
+            display: flex;
+        }
+    
+        &-div2{
+            display: flex;
+        }
+    
+        &-footnote {
+            display: none;
+           
+        }
+
+        &-footnote2{
+            font-size: 12px;
+            font-weight: 300;
+            text-align: center;
+            color: rgb(30, 30, 30);
+        }
+    }
+
+
+}
+
+@media screen and (max-width: 1000px) {
+    .Payments {
+
+        &-footnote {
+            display: block
+        }
+
+        &-footnote2{
+           display: none;
+        }
+    }
+}
