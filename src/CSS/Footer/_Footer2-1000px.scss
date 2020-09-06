@@ -19,10 +19,20 @@
 
         &-apps {
             display: flex;
+
+            &:hover {
+                cursor: pointer;
+            }
+    
         }
     
         &-payments {
             display: flex;
+
+            &:hover {
+                cursor: pointer;
+            }
+    
         }
     }
 
@@ -32,6 +42,11 @@
         padding-bottom: 50px;
         justify-content: space-around;
         align-items: flex-start;
+
+        &:hover {
+            cursor: pointer;
+        }
+
 
       &-nav1 {
           display: flex;
@@ -63,6 +78,11 @@
         position: relative;
         top: 20px;
         right: 4%;
+
+        &:hover {
+            cursor: pointer;
+        }
+
 
         &-trademark{
 

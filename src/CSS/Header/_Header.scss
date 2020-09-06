@@ -56,16 +56,32 @@
         display: flex;
         align-items: center;
 
+     
         &__person {
             margin-right: 15px;
+            
+            &:hover {
+                cursor: pointer;
+            }
+    
+            
         }
 
         &__search {
             margin-right: 15px;
+
+    
         }
 
         &__cart {
             margin-right: 20px;
+
+            &:hover {
+                cursor: pointer;
+            }
+    
+
+           
         }
 
 
@@ -75,6 +91,11 @@
             align-items: center;
             display: none;
             margin-right: 15px;
+
+            &:hover {
+                cursor: pointer;
+            }
+    
             
 
             &-text {
@@ -112,6 +133,11 @@
             align-items: center;
             display: none;
             margin-right: 15px;
+            
+            &:hover {
+                cursor: pointer;
+            }
+    
 
             &-text {
                 display: flex;
